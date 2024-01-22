@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should match snapshot 1`] = `
+.c2 {
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  cursor: pointer;
+  filter: blur(0.5px);
+  text-decoration: none;
+  color: #198c8c;
+}
+
+.c2:hover {
+  filter: brightness(1);
+  filter: blur(0);
+}
+
+.c2::after,
+.c2::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 1px;
+  background-color: #141010;
+  transition: transform 0.3s ease-out;
+}
+
+.c2::before {
+  top: 50%;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.c2::after {
+  bottom: 50%;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.c2>span::before,
+.c2>span::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 8px;
+  background-color: #141010;
+  transition: transform 0.3s ease-out;
+}
+
+.c2>span::before {
+  left: 50%;
+  bottom: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+.c2>span::after {
+  right: 50%;
+  top: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.c2:hover::after,
+.c2:hover::before,
+.c2:hover>span::after,
+.c2:hover>span::before {
+  transform: scaleX(1) scaleY(1);
+}
+
+.c3 {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  right: 8px;
+  top: 25%;
+  margin-right: 12px;
+}
+
+.c4 {
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.c5 {
+  display: none;
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+}
+
+.c5 .burger {
+  position: relative;
+  width: 40px;
+  height: 25px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+}
+
+.c5 .burger input {
+  display: none;
+}
+
+.c5 .burger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+  background-color: #198c8c;
+}
+
+.c5 .burger span:nth-of-type(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.c5 .burger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: left center;
+}
+
+.c5 .burger span:nth-of-type(3) {
+  top: 100%;
+  transform-origin: left center;
+  transform: translateY(-100%);
+}
+
+.c5 .burger input:checked~span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 0px;
+  left: 5px;
+}
+
+.c5 .burger input:checked~span:nth-of-type(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.c5 .burger input:checked~span:nth-of-type(3) {
+  transform: rotate(-45deg);
+  top: 28px;
+  left: 5px;
+}
+
+.c0 {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 14px 150px;
+  background-color: #AAD9BB;
+  z-index: 1;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient( to bottom,rgba(255,255,255,0),rgba(0,139,139,1) );
+}
+
+.c1 {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  list-style: none;
+}
+
+@media (max-width:768px) {
+  .c5 {
+    display: flex;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div>
+  <nav
+    class="c0"
+    data-testid="menu"
+  >
+    <ul
+      class="c1"
+    >
+      <li>
+        <a
+          class="c2"
+          href="/"
+          target="_blank"
+        >
+          Home
+          <span />
+        </a>
+      </li>
+      <li>
+        <a
+          class="c2"
+          href="/about"
+          target="_blank"
+        >
+          About
+          <span />
+        </a>
+      </li>
+      <li>
+        <a
+          class="c2"
+          href="/posts"
+          target="_blank"
+        >
+          Posts
+          <span />
+        </a>
+      </li>
+      <li>
+        <a
+          class="c2"
+          href="/fallow-us"
+          target="_blank"
+        >
+          Fallow us
+          <span />
+        </a>
+      </li>
+      <li>
+        <a
+          class="c2"
+          href="/contact"
+          target="_blank"
+        >
+          Contact
+          <span />
+        </a>
+      </li>
+    </ul>
+    <div
+      class="c3"
+    >
+      <button
+        class="c4"
+      >
+        <img
+          alt="Dark Theme"
+          data-nimg="1"
+          decoding="async"
+          height="24"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+          style="color: transparent;"
+          width="24"
+        />
+      </button>
+      <button
+        class="c4"
+      >
+        <img
+          alt="Light Theme"
+          data-nimg="1"
+          decoding="async"
+          height="24"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+          style="color: transparent;"
+          width="24"
+        />
+      </button>
+    </div>
+  </nav>
+  <div>
+    <div
+      class="c5"
+    >
+      <label
+        class="burger"
+        for="burger"
+      >
+        <input
+          aria-label="Menu burger"
+          id="burger"
+          type="checkbox"
+        />
+        <span />
+        <span />
+        <span />
+      </label>
+    </div>
+  </div>
+</div>
+`;

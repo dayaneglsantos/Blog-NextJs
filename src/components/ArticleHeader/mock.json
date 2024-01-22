@@ -1,0 +1,20 @@
+{
+  "publishedAt": "2023-12-20T17:23:29.387Z",
+  "title": "Título da postagem",
+  "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione quisquam alias doloribus veniam dolore. Ea temporibus illum numquam ab quo.",
+  "image": "/image.com",
+  "author": {
+    "slug": "dayane-santos",
+    "displayName": "Dayane Santos"
+  },
+  "categories": [
+    {
+      "slug": "react",
+      "displayName": "React"
+    },
+    {
+      "slug": "js",
+      "displayName": "Javascript"
+    }
+  ]
+}

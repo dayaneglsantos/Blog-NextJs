@@ -1,0 +1,171 @@
+{
+  "data": {
+    "setting": {
+      "data": {
+        "attributes": {
+          "blogName": "Nome do Blog",
+          "blogDescription": "Descrição do blog",
+          "logo": {
+            "data": {
+              "attributes": {
+                "alternativeText": "Logo",
+                "url": "https://media.licdn.com/dms/image/C4E03AQF_vOLlEFswYA/profile-displayphoto-shrink_800_800/0/1547647627849?e=1710374400&v=beta&t=Fjlp8Em5_IlwW8v2Jr4zeButR72qUsOQrhp0P1UmyTk"
+              }
+            }
+          },
+          "menuLink": [
+            {
+              "link": "/",
+              "text": "Home",
+              "newTab": true
+            },
+            {
+              "link": "/about",
+              "text": "About",
+              "newTab": true
+            },
+            {
+              "link": "/posts",
+              "text": "Posts",
+              "newTab": true
+            },
+            {
+              "link": "/fallow-us",
+              "text": "Fallow us",
+              "newTab": true
+            },
+            {
+              "link": "/contact",
+              "text": "Contact",
+              "newTab": true
+            }
+          ],
+          "footer": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Texto do footer",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "posts": {
+      "data": [
+        {
+          "id": "2",
+          "attributes": {
+            "title": "Post 2",
+            "slug": "post-2",
+            "cover": {
+              "data": {
+                "attributes": {
+                  "alternativeText": "Foto 2",
+                  "url": "https://res.cloudinary.com/dbmuc0tzr/image/upload/v1703092587/img5_565f978262.jpg"
+                }
+              }
+            },
+            "excerpt": "abcde",
+            "content": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "dgggggggggggggggggggggggggggggggggggggggg",
+                    "type": "text"
+                  }
+                ]
+              }
+            ],
+            "allowComments": true,
+            "publishedAt": "2023-12-20T17:23:29.387Z",
+            "tags": [
+              {
+                "displayName": "Jest",
+                "slug": "jest"
+              },
+              {
+                "displayName": "Next",
+                "slug": "next-js"
+              }
+            ],
+            "categories": {
+              "data": [
+                {
+                  "displayName": "React",
+                  "slug": "react"
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "attributes": {
+                  "id": 30,
+                  "displayName": "Dayane Santos",
+                  "slug": "dayane-santos"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1",
+          "attributes": {
+            "title": "Post 1",
+            "slug": "post-1",
+            "cover": {
+              "data": {
+                "attributes": {
+                  "alternativeText": "Foto 1",
+                  "url": "https://res.cloudinary.com/dbmuc0tzr/image/upload/v1703081921/img6_ac75ed5d81.jpg"
+                }
+              }
+            },
+            "excerpt": "dssfgsdfgsdfgsdfg",
+            "content": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "<h1>Este é o título 1<h1/>",
+                    "type": "text"
+                  }
+                ]
+              }
+            ],
+            "allowComments": true,
+            "publishedAt": "2023-12-19T22:03:25.954Z",
+            "tags": [
+              {
+                "displayName": "Styled Components",
+                "slug": "styled-components"
+              }
+            ],
+            "categories": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Front End",
+                    "slug": "front-end"
+                  }
+                }
+              ]
+            },
+            "author": {
+              "data": {
+                "attributes": {
+                  "displayName": "Dayane Santos",
+                  "slug": "dayane-santos"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

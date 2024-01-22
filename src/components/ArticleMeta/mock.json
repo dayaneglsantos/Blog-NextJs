@@ -1,0 +1,18 @@
+{
+  "publishedAt": "2023-12-20T17:23:29.387Z",
+  "darkTheme": false,
+  "author": {
+    "slug": "dayane-santos",
+    "displayName": "Dayane Santos"
+  },
+  "categories": [
+    {
+      "slug": "react",
+      "displayName": "React"
+    },
+    {
+      "slug": "js",
+      "displayName": "Javascript"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostGrid /> should match snapshot 1`] = `
+.c0 {
+  padding: 24px 0 48px;
+  min-height: calc(100vh - (268px + 50px + 50px));
+}
+
+.c1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <p
+      class="c1"
+    >
+      Nenhum post encontrado 😕
+    </p>
+  </div>
+</div>
+`;

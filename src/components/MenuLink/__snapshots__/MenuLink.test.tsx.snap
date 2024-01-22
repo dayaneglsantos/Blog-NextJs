@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuLink/> should render MenuLink 1`] = `
+.c0 {
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  cursor: pointer;
+  filter: blur(0.5px);
+  text-decoration: none;
+  color: #198c8c;
+}
+
+.c0:hover {
+  filter: brightness(1);
+  filter: blur(0);
+}
+
+.c0::after,
+.c0::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 1px;
+  background-color: #141010;
+  transition: transform 0.3s ease-out;
+}
+
+.c0::before {
+  top: 50%;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.c0::after {
+  bottom: 50%;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.c0>span::before,
+.c0>span::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 8px;
+  background-color: #141010;
+  transition: transform 0.3s ease-out;
+}
+
+.c0>span::before {
+  left: 50%;
+  bottom: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+.c0>span::after {
+  right: 50%;
+  top: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.c0:hover::after,
+.c0:hover::before,
+.c0:hover>span::after,
+.c0:hover>span::before {
+  transform: scaleX(1) scaleY(1);
+}
+
+<div>
+  <a
+    class="c0"
+    href="link.com"
+    target="_self"
+  >
+    Link 1
+    <span />
+  </a>
+</div>
+`;

@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArticleHeader /> should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c2 {
+  font-style: italic;
+  margin-top: 12px;
+}
+
+.c2 p {
+  color: #495E57;
+}
+
+.c2 .after::after {
+  content: ', ';
+}
+
+.c2 .after:last-child::after {
+  content: '';
+}
+
+.c1 {
+  text-transform: none;
+  text-align: center;
+  color: #008b8b;
+  font-size: 2.4rem;
+}
+
+.c0 {
+  color: #141010;
+  margin: 32px auto;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #878787;
+  max-width: 700px;
+  width: 100%;
+}
+
+.c0 >p {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.c0 img {
+  height: 384px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    width: 80%;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 img {
+    height: 280px;
+  }
+}
+
+<body>
+    <div>
+      <header
+        class="c0"
+      >
+        <h2
+          class="c1"
+        >
+          Título da postagem
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione quisquam alias doloribus veniam dolore. Ea temporibus illum numquam ab quo.
+        </p>
+        <img
+          alt="Título da postagem"
+          data-nimg="1"
+          decoding="async"
+          height="384"
+          loading="lazy"
+          src="/_next/image?url=%2Fimage.com&w=1920&q=75"
+          srcset="/_next/image?url=%2Fimage.com&w=750&q=75 1x, /_next/image?url=%2Fimage.com&w=1920&q=75 2x"
+          style="color: transparent;"
+          width="700"
+        />
+        <div
+          class="c2"
+        >
+          <p>
+            Por 
+            <a
+              href="/author/dayane-santos"
+            >
+              Dayane Santos
+               
+            </a>
+            em 
+            <span>
+              20/12/2023, 14:23
+            </span>
+             |
+             
+            <span>
+              <a
+                class="after"
+                href="/category/react"
+              >
+                React
+              </a>
+              <a
+                class="after"
+                href="/category/js"
+              >
+                Javascript
+              </a>
+            </span>
+          </p>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": .c2 {
+  font-style: italic;
+  margin-top: 12px;
+}
+
+.c2 p {
+  color: #495E57;
+}
+
+.c2 .after::after {
+  content: ', ';
+}
+
+.c2 .after:last-child::after {
+  content: '';
+}
+
+.c1 {
+  text-transform: none;
+  text-align: center;
+  color: #008b8b;
+  font-size: 2.4rem;
+}
+
+.c0 {
+  color: #141010;
+  margin: 32px auto;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #878787;
+  max-width: 700px;
+  width: 100%;
+}
+
+.c0 >p {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.c0 img {
+  height: 384px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    width: 80%;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 img {
+    height: 280px;
+  }
+}
+
+<div>
+    <header
+      class="c0"
+    >
+      <h2
+        class="c1"
+      >
+        Título da postagem
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione quisquam alias doloribus veniam dolore. Ea temporibus illum numquam ab quo.
+      </p>
+      <img
+        alt="Título da postagem"
+        data-nimg="1"
+        decoding="async"
+        height="384"
+        loading="lazy"
+        src="/_next/image?url=%2Fimage.com&w=1920&q=75"
+        srcset="/_next/image?url=%2Fimage.com&w=750&q=75 1x, /_next/image?url=%2Fimage.com&w=1920&q=75 2x"
+        style="color: transparent;"
+        width="700"
+      />
+      <div
+        class="c2"
+      >
+        <p>
+          Por 
+          <a
+            href="/author/dayane-santos"
+          >
+            Dayane Santos
+             
+          </a>
+          em 
+          <span>
+            20/12/2023, 14:23
+          </span>
+           |
+           
+          <span>
+            <a
+              class="after"
+              href="/category/react"
+            >
+              React
+            </a>
+            <a
+              class="after"
+              href="/category/js"
+            >
+              Javascript
+            </a>
+          </span>
+        </p>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
