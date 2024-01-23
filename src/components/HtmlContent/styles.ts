@@ -46,7 +46,7 @@ export const HtmlContainer = styled.div`
 
   pre {
     background-color: ${({ theme }) => theme.colors.dark};
-    color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.background};
     padding: 18px;
     margin: 16px 0;
     overflow: auto;
