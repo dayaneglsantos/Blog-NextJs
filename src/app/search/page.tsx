@@ -3,7 +3,7 @@ import loadPosts from '../../Api/load-posts'
 import PostsTemplete from '../../Templates/PostsTemplate'
 import { defaultVariables } from '../../Api/load-posts'
 
-export const SearchPage = async ({ searchParams }: any) => {
+const SearchPage = async ({ searchParams }: any) => {
   const variables = {
     ...defaultVariables,
     postSearch: searchParams.query
