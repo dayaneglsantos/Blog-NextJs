@@ -25,6 +25,7 @@ exports[`<PostCard /> should match snapshot 1`] = `
 .c0 .c3 {
   font-size: 1.2rem;
   margin-bottom: 8px;
+  text-align: start;
 }
 
 .c0 .c3:hover {

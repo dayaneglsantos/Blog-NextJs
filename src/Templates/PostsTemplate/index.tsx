@@ -12,7 +12,7 @@ import Search from '../../components/Search'
 export type PostsTemplateProps = {
   settings: Settings
   posts: PostCardType[]
-  variables: LoadPostsVariables
+  variables?: LoadPostsVariables
   searchText?: string
 }
 
@@ -32,8 +32,9 @@ const PostsTemplate = ({
 
     const newVariables = {
       ...stateVariables,
-      start: stateVariables.start! + stateVariables.limit!,
-      limit: stateVariables.limit
+
+      start: stateVariables && stateVariables.start! + stateVariables.limit!,
+      limit: stateVariables && stateVariables.limit
     }
 
     const newPosts = await loadPosts(newVariables)

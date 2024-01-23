@@ -13,7 +13,7 @@ describe('<PostGrid />', () => {
   it('should call request with default variables', async () => {
     await loadPosts()
     expect(request).toHaveBeenCalledWith(
-      'http://localhost:1337/graphql',
+      'https://blog-backend-s33l.onrender.com/graphql',
       'A_QUERY',
       defaultVariables
     )
@@ -21,7 +21,7 @@ describe('<PostGrid />', () => {
   it('should call request with custom variables', async () => {
     await loadPosts({ authorSlug: 'dayane' })
     expect(request).toHaveBeenCalledWith(
-      'http://localhost:1337/graphql',
+      'https://blog-backend-s33l.onrender.com/graphql',
       'A_QUERY',
       { ...defaultVariables, authorSlug: 'dayane' }
     )

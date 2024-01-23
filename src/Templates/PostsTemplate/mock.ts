@@ -16,5 +16,5 @@ export default {
       }
     ]
   },
-  posts: mock
+  posts: mock.posts
 } as PostsTemplateProps
