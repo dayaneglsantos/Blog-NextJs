@@ -23,12 +23,12 @@ const Header = ({ blogDescription, blogName, url, altText }: HeaderType) => {
         {showText ? (
           <BsChevronDoubleLeft
             onClick={() => setShowText(false)}
-            className="text-close"
+            aria-label="close details"
           />
         ) : (
           <BsChevronDoubleRight
             onClick={() => setShowText(true)}
-            className="text-open"
+            aria-label="open details"
           />
         )}
 

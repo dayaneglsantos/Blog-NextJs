@@ -23,7 +23,7 @@ const Comments = ({ slug, allowComments, id, title }: CommentsProps) => {
       <DiscussionEmbed
         shortname="dayane-santos"
         config={{
-          url: `/post/${slug}`,
+          url: `https://blog-dayane.vercel.app/post/${slug}`,
           identifier: id,
           title,
           language: 'pt_BR'
